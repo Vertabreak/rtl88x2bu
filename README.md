@@ -1,5 +1,6 @@
 
 ```bash
+git clone https://github.com/Vertabreak/rtl88x2bu.git
 cd rtl88x2bu
 VER=$(sed -n 's/\PACKAGE_VERSION="\(.*\)"/\1/p' dkms.conf)
 sudo rsync -rvhP ./ /usr/src/rtl88x2bu-${VER}
