@@ -10,3 +10,5 @@ sudo dkms build -m rtl88x2bu -v ${VER}
 sudo dkms install -m rtl88x2bu -v ${VER}
 sudo modprobe 88x2bu
 ```
+## Clean out old version
+you may need to delete the old rtl88x2bu folder from your home folder first. 
