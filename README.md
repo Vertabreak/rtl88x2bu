@@ -1,4 +1,5 @@
 
+#Run in terminal to install.
 ```bash
 git clone https://github.com/Vertabreak/rtl88x2bu.git
 cd rtl88x2bu
