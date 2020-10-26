@@ -1,0 +1,58 @@
+{
+    "configurations": [
+        {
+            "name": "!!! WARNING !!! AUTO-GENERATED FILE, PLEASE DO NOT MODIFY IT AND USE https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags"
+        },
+        {
+            "name": "Linux",
+            "includePath": [
+                "/home/vertabreaker/Downloads/Verts-Marlin/Marlin",
+                "/home/vertabreaker/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
+                "/home/vertabreaker/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
+                "/home/vertabreaker/Downloads/Verts-Marlin/.pio/libdeps/mega2560/U8glib-HAL/src",
+                "/home/vertabreaker/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
+                "/home/vertabreaker/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
+                "/home/vertabreaker/.platformio/packages/framework-arduino-avr/cores/arduino",
+                "/home/vertabreaker/.platformio/packages/framework-arduino-avr/variants/mega",
+                "/home/vertabreaker/.platformio/packages/framework-arduino-avr/libraries/HID/src",
+                "/home/vertabreaker/.platformio/packages/tool-unity",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "/home/vertabreaker/Downloads/Verts-Marlin/Marlin",
+                    "/home/vertabreaker/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
+                    "/home/vertabreaker/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
+                    "/home/vertabreaker/Downloads/Verts-Marlin/.pio/libdeps/mega2560/U8glib-HAL/src",
+                    "/home/vertabreaker/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
+                    "/home/vertabreaker/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
+                    "/home/vertabreaker/.platformio/packages/framework-arduino-avr/cores/arduino",
+                    "/home/vertabreaker/.platformio/packages/framework-arduino-avr/variants/mega",
+                    "/home/vertabreaker/.platformio/packages/framework-arduino-avr/libraries/HID/src",
+                    "/home/vertabreaker/.platformio/packages/tool-unity",
+                    ""
+                ]
+            },
+            "defines": [
+                "PLATFORMIO=50001",
+                "ARDUINO_AVR_MEGA2560",
+                "__MARLIN_FIRMWARE__",
+                "F_CPU=16000000L",
+                "ARDUINO_ARCH_AVR",
+                "ARDUINO=10808",
+                "__AVR_ATmega2560__",
+                ""
+            ],
+            "intelliSenseMode": "clang-x64",
+            "cStandard": "c11",
+            "cppStandard": "c++11",
+            "compilerPath": "/home/vertabreaker/.platformio/packages/toolchain-atmelavr/bin/avr-gcc",
+            "compilerArgs": [
+                "-mmcu=atmega2560",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}
