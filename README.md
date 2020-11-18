@@ -4,7 +4,7 @@ you may need to delete the old rtl88x2bu folder from your home folder first.
 ## Run in terminal to install.
 ```bash
 sudo apt update
-sudo apt install build-essential git dkms
+sudo apt install build-essential git dkms -y
 git clone https://github.com/Vertabreak/rtl88x2bu.git
 cd rtl88x2bu
 VER=$(sed -n 's/\PACKAGE_VERSION="\(.*\)"/\1/p' dkms.conf)
